@@ -11,6 +11,7 @@ Copilot, Gemini, etc.).
 
 - [What is context engineering?](#what-is-context-engineering)
 - [What makes this skill different from just writing a good prompt?](#what-makes-this-skill-different-from-just-writing-a-good-prompt)
+- [What is a Claude skill?](#what-is-a-claude-skill)
 - [How to use it](#how-to-use-it)
 - [Personalise it](#personalise-it)
 - [Prompt types it handles](#prompt-types-it-handles)
@@ -82,6 +83,12 @@ your rough input for structural gaps before rewriting:
 
 The skill catches all of these gaps and fills them not just making your words cleaner, but making
 your context complete.
+
+---
+
+## What is a Claude skill?
+
+A Claude skill is a small instruction file that teaches Claude how to handle a recurring task. You set it up once and it is there every time you need it, no re-explaining, no starting from scratch.
 
 ---
 
