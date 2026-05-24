@@ -87,7 +87,7 @@ your context complete.
 
 ## How to use it
 
-### In Claude Code
+### Option 1: Claude Code
 
 1. Download `context-engineer-skill.md` from this repo
 2. Fill in your personal placeholders (see [Personalise it](#personalise-it) below)
@@ -101,15 +101,35 @@ Trigger it by typing `/context-engineer` or using any of these phrases:
 - "clean this up"
 - "this is my rough idea"
 
-### In any other LLM (ChatGPT, Copilot, Gemini, etc.)
+### Option 2: Claude Desktop
 
 1. Download `context-engineer-skill.md` from this repo
-2. Fill in your personal placeholders (see below)
-3. Copy the full contents and paste them as a system prompt or custom instruction in your LLM:
+2. Fill in your personal placeholders (see [Personalise it](#personalise-it) below)
+3. Open Claude Desktop and type `/skill-creator`
+4. Upload the file or paste the contents when prompted
+5. Claude will install it as a permanent skill for you
+
+Trigger it by typing `/context-engineer` or the phrases above.
+
+### Option 3: Claude.ai (browser)
+
+1. Download `context-engineer-skill.md` from this repo
+2. Fill in your personal placeholders (see [Personalise it](#personalise-it) below)
+3. Open [claude.ai](https://claude.ai) and type `/skill-creator`
+4. Upload the file or paste the contents when prompted
+5. Claude will install it as a permanent skill for you
+
+Trigger it by typing `/context-engineer` or the phrases above.
+
+### Option 4: Any other LLM (ChatGPT, Copilot, Gemini, etc.)
+
+1. Download `context-engineer-skill.md` from this repo
+2. Fill in your personal placeholders (see [Personalise it](#personalise-it) below)
+3. Copy the full contents and paste them as a system prompt or custom instruction:
    - **ChatGPT**: Settings → Personalisation → Custom Instructions → paste into "How would you
      like ChatGPT to respond?"
-   - **Copilot**: Open a new chat → paste at the top before your first message
-   - **Gemini**: Start a conversation → paste as your first message, prefixed with "Use these
+   - **Copilot**: Open a new chat and paste at the top before your first message
+   - **Gemini**: Start a conversation and paste as your first message, prefixed with "Use these
      instructions for our conversation:"
    - **Any other LLM**: Paste the contents at the top of your system prompt or first message
 
