@@ -133,6 +133,12 @@ better the output.
 
 ---
 
+## Contact
+
+Built by [Georgia Hirth](https://www.linkedin.com/in/georgiahirth/)
+
+---
+
 ## License
 
 MIT
