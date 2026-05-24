@@ -2,7 +2,7 @@
 
 A skill that turns rough, messy prompts into tight, effective ones, ready to run.
 
-Works in Claude Code as a slash command, or use the markdown file directly in any LLM (ChatGPT,
+Works in Claude as a slash command, or use the markdown file directly in any LLM (ChatGPT,
 Copilot, Gemini, etc.).
 
 ---
