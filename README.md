@@ -1,6 +1,6 @@
 # context-engineer
 
-A skill that turns rough, messy prompts into tight, effective ones — ready to run.
+A skill that turns rough, messy prompts into tight, effective ones, ready to run.
 
 Works in Claude Code as a slash command, or use the markdown file directly in any LLM (ChatGPT,
 Copilot, Gemini, etc.).
@@ -9,16 +9,16 @@ Copilot, Gemini, etc.).
 
 ## What is context engineering?
 
-You have probably heard of **prompt engineering** — the practice of carefully wording your
+You have probably heard of **prompt engineering** the practice of carefully wording your
 instructions to get better AI output. Context engineering goes further.
 
 Prompt engineering asks: *"How do I phrase this?"*
 Context engineering asks: *"What does the model need to know to do this well?"*
 
-The difference matters because LLMs do not just respond to your words — they respond to everything
+The difference matters because LLMs do not just respond to your words they respond to everything
 in their context window: your instructions, your role definition, the constraints you set, the
 examples you give, the format you specify, and the information you leave out. A poorly constructed
-prompt is not just vague — it actively misleads the model, filling in gaps with assumptions that
+prompt is not just vague it actively misleads the model, filling in gaps with assumptions that
 may be wrong.
 
 Context engineering is about deliberately controlling what goes into that window so the model has
@@ -29,7 +29,7 @@ exactly what it needs and nothing it does not.
 A well-engineered context:
 - Gives the model a clear role (so it behaves like the right expert, not a general assistant)
 - Specifies the output format (so you get what you actually need, not what the model guesses)
-- Sets hard constraints (so the model does not drift into habits you dislike — invented metrics,
+- Sets hard constraints (so the model does not drift into habits you dislike invented metrics,
   corporate language, the wrong dialect, unnecessary caveats)
 - Defines what "done" looks like (so the model stops at the right point)
 - Includes examples of good output (so the model pattern-matches to your style, not its default)
@@ -37,7 +37,7 @@ A well-engineered context:
 Without these, the model fills every gap with its own defaults. Sometimes those defaults are fine.
 Often they are not.
 
-### Prompt engineering vs context engineering — when to use each
+### Prompt engineering vs context engineering when to use each
 
 | | Prompt engineering | Context engineering |
 |---|---|---|
@@ -54,21 +54,21 @@ Use context engineering when you need the model to behave a specific way, repeat
 
 ## What makes this skill different from just writing a good prompt?
 
-Most prompt improvement tools focus on rewording. This skill does something different — it audits
+Most prompt improvement tools focus on rewording. This skill does something different it audits
 your rough input for structural gaps before rewriting:
 
-- **Missing role** — who is the model being? Without this, it defaults to "helpful assistant",
+- **Missing role** who is the model being? Without this, it defaults to "helpful assistant",
   which is rarely the right expert for your task.
-- **Missing constraints** — what must it never do? Without explicit constraints, the model fills
+- **Missing constraints** what must it never do? Without explicit constraints, the model fills
   the gap with its training defaults (which may include habits you dislike).
-- **Missing output format** — how should the response be structured? Without this, you get
+- **Missing output format** how should the response be structured? Without this, you get
   whatever the model thinks looks right.
-- **Missing "done" signal** — when should it stop? Without this, you get padding, caveats, and
+- **Missing "done" signal** when should it stop? Without this, you get padding, caveats, and
   unnecessary summaries.
-- **Weak examples** — few-shot examples are one of the most powerful signals you can give a model.
+- **Weak examples** few-shot examples are one of the most powerful signals you can give a model.
   Most people skip them entirely.
 
-The skill catches all of these gaps and fills them — not just making your words cleaner, but making
+The skill catches all of these gaps and fills them not just making your words cleaner, but making
 your context complete.
 
 ---
@@ -118,7 +118,7 @@ Open `context-engineer-skill.md` and search-replace these four placeholders befo
 | `[YOUR_HARD_CONSTRAINTS]` | Rules it must never break | no em dashes, no jargon, no invented metrics |
 
 Also update the **few-shot examples** at the bottom of the file with your own real prompts. The
-examples are the most powerful part — they show the model what your "before" looks like and what a
+examples are the most powerful part they show the model what your "before" looks like and what a
 good "after" looks like for your specific way of working. The more specific they are to you, the
 better the output.
 
@@ -126,10 +126,10 @@ better the output.
 
 ## Prompt types it handles
 
-- **System prompt** — persistent persona or expert role
-- **Task brief** — one-off output (email, post, doc, analysis)
-- **Workflow prompt** — automation (Zapier, Make, Claude Code, Notion)
-- **Reverse engineer** — you liked a model behaviour and want to capture it
+- **System prompt** persistent persona or expert role
+- **Task brief** one-off output (email, post, doc, analysis)
+- **Workflow prompt** automation (Zapier, Make, Claude Code, Notion)
+- **Reverse engineer** you liked a model behaviour and want to capture it
 
 ---
 
