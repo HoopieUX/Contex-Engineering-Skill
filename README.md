@@ -7,6 +7,18 @@ Copilot, Gemini, etc.).
 
 ---
 
+## Contents
+
+- [What is context engineering?](#what-is-context-engineering)
+- [What makes this skill different from just writing a good prompt?](#what-makes-this-skill-different-from-just-writing-a-good-prompt)
+- [How to use it](#how-to-use-it)
+- [Personalise it](#personalise-it)
+- [Prompt types it handles](#prompt-types-it-handles)
+- [Contact](#contact)
+- [License](#license)
+
+---
+
 ## What is context engineering?
 
 You have probably heard of **prompt engineering** the practice of carefully wording your
