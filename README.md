@@ -165,6 +165,7 @@ better the output.
 
 ## Prompt types it handles
 
+- **Keep it generic** the prompt type doesn't matter. It works on any prompt, no matter what you're trying to make. Blog post, email, job application, business plan, recipe, cover letter, social media caption.
 - **System prompt** persistent persona or expert role
 - **Task brief** one-off output (email, post, doc, analysis)
 - **Workflow prompt** automation (Zapier, Make, Claude Code, Notion)
